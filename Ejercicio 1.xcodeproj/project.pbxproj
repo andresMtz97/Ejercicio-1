@@ -13,6 +13,9 @@
 		8674716C2C1D0C7E001889F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8674716A2C1D0C7E001889F1 /* Main.storyboard */; };
 		8674716E2C1D0C80001889F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8674716D2C1D0C80001889F1 /* Assets.xcassets */; };
 		867471712C1D0C80001889F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8674716F2C1D0C80001889F1 /* LaunchScreen.storyboard */; };
+		867471792C1D0F3A001889F1 /* InternetMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867471782C1D0F3A001889F1 /* InternetMonitor.swift */; };
+		8674717B2C1D1033001889F1 /* FileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8674717A2C1D1033001889F1 /* FileViewController.swift */; };
+		8674717D2C1D12B5001889F1 /* Concierto.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8674717C2C1D12B5001889F1 /* Concierto.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		8674716D2C1D0C80001889F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		867471702C1D0C80001889F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		867471722C1D0C80001889F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		867471782C1D0F3A001889F1 /* InternetMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMonitor.swift; sourceTree = "<group>"; };
+		8674717A2C1D1033001889F1 /* FileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViewController.swift; sourceTree = "<group>"; };
+		8674717C2C1D12B5001889F1 /* Concierto.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Concierto.pdf; path = ../../../Downloads/Concierto.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,7 @@
 		867471582C1D0C7E001889F1 = {
 			isa = PBXGroup;
 			children = (
+				8674717C2C1D12B5001889F1 /* Concierto.pdf */,
 				867471632C1D0C7E001889F1 /* Ejercicio 1 */,
 				867471622C1D0C7E001889F1 /* Products */,
 			);
@@ -63,6 +70,8 @@
 				8674716D2C1D0C80001889F1 /* Assets.xcassets */,
 				8674716F2C1D0C80001889F1 /* LaunchScreen.storyboard */,
 				867471722C1D0C80001889F1 /* Info.plist */,
+				867471782C1D0F3A001889F1 /* InternetMonitor.swift */,
+				8674717A2C1D1033001889F1 /* FileViewController.swift */,
 			);
 			path = "Ejercicio 1";
 			sourceTree = "<group>";
@@ -128,6 +137,7 @@
 				867471712C1D0C80001889F1 /* LaunchScreen.storyboard in Resources */,
 				8674716E2C1D0C80001889F1 /* Assets.xcassets in Resources */,
 				8674716C2C1D0C7E001889F1 /* Main.storyboard in Resources */,
+				8674717D2C1D12B5001889F1 /* Concierto.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				867471692C1D0C7E001889F1 /* ViewController.swift in Sources */,
+				8674717B2C1D1033001889F1 /* FileViewController.swift in Sources */,
+				867471792C1D0F3A001889F1 /* InternetMonitor.swift in Sources */,
 				867471652C1D0C7E001889F1 /* AppDelegate.swift in Sources */,
 				867471672C1D0C7E001889F1 /* SceneDelegate.swift in Sources */,
 			);
